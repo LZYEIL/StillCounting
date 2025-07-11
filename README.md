@@ -8,7 +8,7 @@
 
 ## Introduction
 
-**StillCounting** is part of my *Boring Website Series*: A collection of minimalistic websites that exist for no reason.
+**[StillCounting](https://still-counting.vercel.app/)** was built by **HTML5/TailwindCSS/Vanilla JavaScript** and is part of my *Boring Website Series*: A collection of minimalistic websites that exist for no reason.
 
 This one just tells you: 
 - How long this site has been online.
@@ -20,12 +20,14 @@ That’s it.
 
 ## Screenshot
 
-*Yet to come*
+<p align="center">
+  <img src="screenshot.png" alt="Screenshot" width="550">
+</p>
 
 <br>
 
 ## Why? 
-*StillCounting* exists to remind you of time… and how much of it you’re wasting.  
+*[StillCounting](https://still-counting.vercel.app/)* exists to remind you of time… and how much of it you’re wasting.  
 It doesn’t judge you, but it does keep track.
 
 
@@ -34,12 +36,12 @@ It doesn’t judge you, but it does keep track.
 
 
 
-## Part of the *Boring Website Series*
+## Part of the Boring Website Series
 
 > A series of websites that prove you don’t need functionality to deploy something.
 
 Check out:
-- [StillCounting](#) — this one.
+- [StillCounting](https://github.com/LZYEIL/StillCounting) — this one.
 - [More to come…](#)
 
 
