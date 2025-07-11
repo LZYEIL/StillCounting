@@ -27,8 +27,13 @@ That’s it.
 <br>
 
 ## Why? 
-*[StillCounting](https://still-counting.vercel.app/)* exists to remind you of time… and how much of it you’re wasting.  
-It doesn’t judge you, but it does keep track.
+*[StillCounting](https://still-counting.vercel.app/)* is a quiet reminder of the relentless passage of time.
+
+It invites you to pause and reflect on how much of our lives we spend waiting, watching clocks, or doing nothing at all.
+
+You may feel amused, or perhaps uneasy. But either way, the page keeps counting.
+
+Because time doesn’t stop. And neither does *StillCounting*.
 
 
 <br>
