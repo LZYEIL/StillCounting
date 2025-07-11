@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>StillCounting</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body class="min-h-screen bg-gradient-to-b from-blue-700 to-blue-300 text-white select-none" style="font-family: Georgia, serif;">
+
+  <div class="flex flex-col items-center justify-center min-h-screen space-y-8 text-center">
+
+    <!-- First Line -->
+    <div class="text-3xl">This Website Has Been Up For:</div>
+
+    <!-- Second Line -->
+    <div id="counter" class="text-5xl">LOADING...</div>
+
+    <!-- Third Line -->
+    <div id="wasted-time" class="text-2xl"></div>
+
+  </div>
+
+  <script>
+    // The website deployment time
+    const startTime = new Date(Date.UTC(2025, 6, 10, 7, 10, 0));
+
+    // Entrance time of the user
+    const userStartTime = new Date();
+
+    function pad(num) {
+      return num.toString().padStart(2, '0');
+    }
+
+
+
+    function formatTime(diff) {
+      const years = Math.floor(diff / (365 * 24 * 3600));
+      diff -= years * 365 * 24 * 3600;
+
+      const days = Math.floor(diff / (24 * 3600));
+      diff -= days * 24 * 3600;
+
+      const hours = Math.floor(diff / 3600);
+      diff -= hours * 3600;
+
+      const minutes = Math.floor(diff / 60);
+      const seconds = diff % 60;
+
+      const nbsp = '\u00A0\u00A0\u00A0';
+      const formatted = `${years} Years${nbsp}${days} Days${nbsp}${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+      return { years, days, hours, minutes, seconds, formatted };
+    }
+
+
+
+    function updateCounter() {
+      const now = new Date();
+
+      // Accumulated time
+      let diffSite = Math.floor((now - startTime) / 1000);
+      if (diffSite < 0) {
+        document.getElementById('counter').textContent = 'Not Yet Started';
+        document.getElementById('wasted-time').textContent = '';
+        return;
+      }
+
+      let diffUser = Math.floor((now - userStartTime) / 1000);
+
+      const siteTime = formatTime(diffSite);
+      document.getElementById('counter').textContent = siteTime.formatted;
+
+
+      const userTime = formatTime(diffUser);
+      const userText = `You wasted ${pad(userTime.hours)} hours ${pad(userTime.minutes)} minutes ${pad(userTime.seconds)} seconds on this page.`;
+
+      document.getElementById('wasted-time').textContent = userText;
+    }
+
+    updateCounter();
+    setInterval(updateCounter, 1000);
+  </script>
+
+</body>
+
+</html>
+
