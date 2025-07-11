@@ -29,7 +29,7 @@ That’s it.
 ## Why? 
 *[StillCounting](https://still-counting.vercel.app/)* is a quiet reminder of the relentless passage of time.
 
-It invites you to pause and reflect on how much of our lives we spend waiting, watching clocks, or doing nothing at all.
+It invites you to reflect on how much of our lives we spend waiting, watching clocks, or doing nothing at all.
 
 You may feel amused, or perhaps uneasy. But either way, the page keeps counting.
 
