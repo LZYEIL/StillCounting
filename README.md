@@ -1,4 +1,4 @@
-# Boring Website Series: StillCounting
+# StillCounting
 
 <br>
 
@@ -8,11 +8,11 @@
 
 ## Introduction
 
-**[StillCounting](https://still-counting.vercel.app/)** was built by **HTML5/TailwindCSS/Vanilla JavaScript** and is part of my *Boring Website Series*: A collection of minimalistic websites that exist for no reason.
+**[StillCounting](https://still-counting.vercel.app/)** was built by **HTML5/TailwindCSS/Vanilla JavaScript**.
 
-This one just tells you: 
+It just tells you: 
 - How long this site has been online.
-- How long you’ve wasted staring at this page.
+- How long you’ve 'wasted' staring at this page.
 
 That’s it.  
 
@@ -36,17 +36,6 @@ You may feel amused, or perhaps uneasy. But either way, the page keeps counting.
 Because time doesn’t stop. And neither does *StillCounting*.
 
 
-<br>
 
-
-
-
-## Part of the Boring Website Series
-
-> A series of websites that prove you don’t need functionality to deploy something.
-
-Check out:
-- [StillCounting](https://github.com/LZYEIL/StillCounting) — this one.
-- [More to come…](#)
 
 
