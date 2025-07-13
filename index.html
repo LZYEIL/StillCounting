@@ -74,7 +74,7 @@
 
 
       const userTime = formatTime(diffUser);
-      const userText = `${pad(userTime.hours)}  ${pad(userTime.minutes)}  ${pad(userTime.seconds)} has been spent on this page.`;
+      const userText = `${pad(userTime.hours)} : ${pad(userTime.minutes)} : ${pad(userTime.seconds)} has been spent on this page.`;
 
       document.getElementById('wasted-time').textContent = userText;
     }
