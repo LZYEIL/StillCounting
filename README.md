@@ -20,9 +20,10 @@ That’s it.
 
 ## Screenshot
 
-<p align="center">
+```<p align="center">
   <img src="screenshot.png" alt="Screenshot" width="550">
 </p>
+```
 
 <br>
 
